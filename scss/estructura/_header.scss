@@ -29,15 +29,29 @@ header{
                 a{
                  color: #959595;
                  text-decoration: none;  
-                }
+                 
+                 
+                }  
             }
         }
-            
-            
-             
+
+        
             
               
         
     }
+
+
+
+}
+
+/* Media query */
+@media(max-width: 500px) {
+    header nav {
+        display: none;
+    }
+
+  
+   
 
 }

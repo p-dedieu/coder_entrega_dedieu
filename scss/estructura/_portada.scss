@@ -1,40 +1,55 @@
-
-main{   
-    div{
-        h2{
+main {   
+    div {
+        h2 {
             color: #C4847A;
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 40px; 
-            margin-top: 50px;    
+            margin: 40px;  
         }  
     }
 
-    section{ 
-        
-        div{
-            h1{              
-               
-                color: #fcfafa;
-                font-family: Arial, Helvetica, sans-serif; 
-                font-size: 62px;                
-            }
-
-           
-
-        }
-    }
-      
-   
-    .parrafo-index{
+    .parrafo-index1 {
         color: #959595;
         text-align: justify;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;  
-        margin: 20px auto; 
+        margin: 30px auto;
+        padding: 10px;
+        max-width: 900px;
+
+        .strong {
+            font-weight: bolder;            
+        }
+    }
+
+    .parrafo-index2 {
+        color: #959595;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;  
+        margin: 30px auto;
         padding: 10px;
         max-width: 900px;
     }
-    
 
 }
+
+/* Media query */
+@media(max-width: 500px) {
+    header nav {
+        display: none;
+    }
+
+    .parrafo-index1 {
+        color: #ac2323;        
+        padding: 20px;
+        max-width: 900px;
+
+               
+    }
+}
+
+  
+   
+

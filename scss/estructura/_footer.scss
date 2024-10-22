@@ -1,7 +1,56 @@
 
-footer{
-    .footer-hipo{
-        background-color:#B3B1B1;
+.pie {
+    background-color: #B3B1B1;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+
+    .footer-estructura {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 10px;
+        width: 100%;
+
+        @media (min-width: 768px) { 
+            flex-direction: row; 
+        }
+
+        .iconos {
+            display: flex;
+            margin: 10px;
+            gap: 20px; 
+        }
+
+        .suscribite {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            input {
+                margin-right: 10px;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            button {
+                background-color: #383332;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 5px;              
+                transition: background-color 0.3s, transform 0.2s;
+
+                &:hover {
+                    background-color: #C4847A;
+                    transform: scale(1.05);
+                }
+
+                &:active {
+                    transform: scale(0.95); 
+                }
+            }
+        }
     }
 }
-
