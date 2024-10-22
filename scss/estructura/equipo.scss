@@ -6,6 +6,10 @@ h2{
     margin-top: 50px;     
 }
 
+h3{
+       margin-top: 50px;     
+}
+
 .fernanda{
     display: flex;
     color: #959595;
@@ -52,5 +56,39 @@ h2{
     }
 }
 
+/* Media query */
+
+/* Si bien puedo hacer con display block que pase de horizontal a vertical no logro que quede adaptado a varias pantallas mobile */
+
+@media(max-width: 600px) {
+
+    h2{
+        font-size: 30px; 
+        margin-top: 30px;     
+    }
+
+    .fernanda {
+        display: block;
+            gap: 50%;
+        font-size:15px;
+    }
+
+    .carolina {
+        display: block;
+        gap: 50%;
+        font-size:18px;
+    }
+
+    .ariel {
+        display: block;
+        gap: 50%;
+        font-size:18px;
+    }
+
+    h3{
+        margin-top: 90px;  
+        font-size: 33px;   
+ }
+}
 
 
