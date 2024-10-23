@@ -11,11 +11,6 @@ html{
     align-items: center;
   }
   
-  .container-hamburguesa img{
-   
-    width: 25px; 
-    
-  }
   
   .quienes_somos:hover{
    font-weight: bold
