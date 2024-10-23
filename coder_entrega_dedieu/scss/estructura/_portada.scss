@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 main {   
     div {
         h2 {
@@ -63,4 +64,71 @@ main {
         font-size: 25px; 
         margin: 30px;  
     }  
+=======
+main {   
+    div {
+        h2 {
+            color: #C4847A;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px; 
+            margin: 40px;  
+        }  
+    }  
+    
+    div img {
+        width: 100%; 
+    }
+
+    .parrafo-index1 {
+        color: #959595;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;  
+        margin: 30px auto; 
+        padding: 30px; 
+        max-width: 900px;   
+
+        .strong {
+            font-weight: bolder;            
+        }
+    }
+
+    .parrafo-index2 {
+        color: #959595;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;  
+        margin: 30px auto; 
+        padding: 30px;
+        max-width: 900px;          
+    }
+}
+
+/* Media query */
+@media (max-width: 600px) { 
+    header nav {
+        display: none;
+    }
+
+    .parrafo-index1 {
+        color: #3e3d3d;        
+        padding: 20px;
+        max-width: 400px; 
+    }
+
+    .parrafo-index2 {
+        color: #3e3d3d;        
+        padding: 20px;
+        max-width: 400px;
+    }
+
+    h2 {
+        color: #C4847A;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px; 
+        margin: 30px;  
+    }  
+>>>>>>> 866bf89037658eeb400f37417cb9794fc426e05f
 }

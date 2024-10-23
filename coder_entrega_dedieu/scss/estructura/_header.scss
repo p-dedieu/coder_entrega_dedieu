@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
    
     .encabezado{
@@ -66,4 +67,74 @@ header{
   
    
 
+=======
+header{
+   
+    .encabezado{
+        
+        display: flex; 
+        width: 100%; 
+        background-color: white;  
+        align-items: center;
+
+
+        
+        .container-hamburguesa img{   
+            width: 35px; 
+            margin-left: 20px;
+            
+        }
+
+        img{
+            width: 300px;
+            margin-right: 20px;
+        }   
+
+       
+    
+    nav{        
+        text-align: justify;
+        background-color: white;
+        ul{
+            display: flex;
+            list-style: none;
+        
+            li{
+                &:hover{
+                 font-weight: bold
+                }
+                margin: 20px;             
+                a{
+                 color: #959595;
+                 text-decoration: none;  
+                 
+                 
+                }  
+            }
+        }
+
+        
+            
+              
+        
+    }
+
+
+}
+
+    }
+   
+   
+    
+    
+/* Media query */
+@media(max-width: 600px) {
+    header nav {
+        display: none;
+    }
+
+  
+   
+
+>>>>>>> 866bf89037658eeb400f37417cb9794fc426e05f
 }

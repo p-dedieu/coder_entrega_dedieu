@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 //base
@@ -21,4 +22,29 @@
 
 
 //footer
+=======
+
+
+//base
+@import "./base/reset";
+
+//encabezado
+@import "./estructura/header";
+
+
+@import "./estructura/portada";
+
+@import "./estructura/servicios";
+
+@import "./estructura/vacantes";
+
+@import "./estructura/equipo";
+
+@import "./estructura/contacto";
+
+@import "./estructura/prueba2";
+
+
+//footer
+>>>>>>> 866bf89037658eeb400f37417cb9794fc426e05f
 @import  "./estructura/footer";

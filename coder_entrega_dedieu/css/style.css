@@ -387,6 +387,7 @@ main .icono-wpp img {
     padding: 8px 15px;
   }
 }
+<<<<<<< HEAD
 h2 {
   color: #C4847A;
   text-align: center;
@@ -451,6 +452,8 @@ h2 {
     gap: 15px;
   }
 }
+=======
+>>>>>>> 866bf89037658eeb400f37417cb9794fc426e05f
 .pie {
   background-color: #B3B1B1;
   color: #fff;
