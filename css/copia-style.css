@@ -203,18 +203,17 @@ html{
   }
   
   .footer {
-    background-color: #333; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    text-align: center; /* Centrar el texto */
-    padding: 20px 0; /* Espaciado superior e inferior */
-  }
+    background-color: #333; 
+    color: #fff;
+    text-align: center; 
+    padding: 20px 0; 
   
   
   
   .pie{
-    background-color: #C4847A; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    text-align: center; /* Centrar el texto */
-    padding: 20px 0; /* Espaciado superior e inferior */
+    background-color: #C4847A;
+    color: #fff;
+    text-align: center; 
+    padding: 20px 0; 
   }
   

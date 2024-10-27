@@ -9,23 +9,30 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <div class="encabezado">
-            <img src="../assets/hipo-logo-horizontal.jpg" alt="Logotipo de HIPO TALENT" width="300px">
-            <!-- Menú de navegación -->
-            <nav>
-                <ul>
-                    <li class="quienes_somos"><a href="../index.html">QUIÉNES SOMOS</a></li>
-                    <li class="servicios"><a href="../htmls/servicios.html">SERVICIOS</a></li>
-                    <li class="vacantes"><a href="../htmls/vacantes.html">VACANTES</a></li>
-                    <li class="equipo"><a href="../htmls/equipo.html">EQUIPO</a></li>
-                    <li class="contacto"><a href="../htmls/contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <div class="container-hamburguesa">
-                <img src="/assets/ham-gris.png">
+      <!-- CON EL ENCABEZADO EN BOOTSTRAP NO ESTOY PUDIENDO PONER LOS LINKS EN GRIS
+    NI EL HOVER CON LETRA BOLD COMO ESTABA AL TENERLO EN CSS -->
+    <header class=".encabezado">
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../assets/hipo-logo-horizontal300.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                  <a class="nav-link active color" aria-current="page" href="../index.html">QUIENES SOMOS</a>
+                  <a class="nav-link" href="../htmls/servicios.html">SERVICIOS</a>
+                  <a class="nav-link" href="../htmls/vacantes.html">VACANTES</a>
+                  <a class="nav-link" href="../htmls/equipo.html">EQUIPO</a>
+                  <a class="nav-link" href="../htmls/contacto.html">CONTACTO</a>
+                </div>
+             
             </div>
-        </div>
+        </nav>     
+
+      
     </header>
     
        <div>
@@ -82,6 +89,10 @@
             <li>Cómo enfrentar una entrevista laboral: técnicas</li>
         </ul>
     </div>
+
+    <a href="link" class="icono-wpp">
+        <img src="../assets/whatsapp-48.png" alt="Icono de WhatsApp">
+    </a>
 </section>
    
    <!-- FOOTER -->

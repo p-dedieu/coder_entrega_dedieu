@@ -60,7 +60,8 @@ h3{
 
 /* Si bien puedo hacer con display block que pase de horizontal a vertical no logro que quede adaptado a varias pantallas mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+
     h2{
         font-size: 30px; 
         margin-top: 30px;     
@@ -89,5 +90,6 @@ h3{
         font-size: 33px;   
  }
 }
+
 
 
