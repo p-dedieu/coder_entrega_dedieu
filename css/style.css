@@ -140,23 +140,23 @@ h2 {
 
 .grid_conteiner {
   display: flex;
-  margin: 50px;
+  margin: 10px;
 }
 .grid_conteiner .grid_item1 {
   text-align: justify;
-  margin: 22px;
+  margin: 15px;
 }
 .grid_conteiner .grid_item2 {
   text-align: justify;
-  margin: 22px;
+  margin: 15px;
 }
 .grid_conteiner .grid_item3 {
   text-align: justify;
-  margin: 22px;
+  margin: 15px;
 }
 .grid_conteiner .grid_item4 {
   text-align: justify;
-  margin: 22px;
+  margin:15px;
   row-gap: 10px;
 }
 
@@ -167,30 +167,30 @@ h2 {
   }
   .grid_conteiner {
     display: block;
-    margin: 20px;
+    margin: 0px;
   }
   .grid_conteiner .grid_item1 {
     text-align: justify;
     justify-content: center;
-    margin: 22px;
+    margin: 0px;
     gap: 15px;
   }
   .grid_conteiner .grid_item2 {
     text-align: justify;
     justify-content: center;
-    margin: 22px;
+    margin: 0px;
     gap: 15px;
   }
   .grid_conteiner .grid_item3 {
     text-align: justify;
     justify-content: center;
-    margin: 22px;
+    margin: 0px;
     gap: 15px;
   }
   .grid_conteiner .grid_item4 {
     text-align: justify;
     justify-content: center;
-    margin: 22px;
+    margin: 0px;
     gap: 15px;
   }
 }
@@ -372,7 +372,7 @@ main .icono-wpp img {
     width: 40px;
   }
 }
-@media (max-width: 780px) {
+@media (max-width: 480px) {
   .oportunidades {
     font-size: 24px;
   }

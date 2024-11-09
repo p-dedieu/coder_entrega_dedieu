@@ -20,14 +20,13 @@ h2 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  margin: 40px;
+  margin: 20px;
   font-weight: bold;
 }
 
 h3 {
   display: block;
-  font-size: 28px;
-  font-size: 1.17em;
+  font-size: 30px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -80,7 +79,7 @@ main div h2 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  margin: 40px;
+  margin: 20px;
 }
 main div img {
   width: 100%;
@@ -106,12 +105,7 @@ main .parrafo-index2 {
   padding: 30px;
   max-width: 900px;
 }
-
-/* Media query */
-@media (max-width: 480px) {
-  header nav {
-    display: none;
-  }
+ 
   .parrafo-index1 {
     color: #3e3d3d;
     padding: 20px;
@@ -126,49 +120,16 @@ main .parrafo-index2 {
     color: #C4847A;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    margin: 30px;
-  }
-}
-h2 {
-  color: #C4847A;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  margin-top: 50px;
-}
-
-.grid_conteiner {
-  display: flex;
-  margin: 50px;
-}
-.grid_conteiner .grid_item1 {
-  text-align: justify;
-  margin: 22px;
-}
-.grid_conteiner .grid_item2 {
-  text-align: justify;
-  margin: 22px;
-}
-.grid_conteiner .grid_item3 {
-  text-align: justify;
-  margin: 22px;
-}
-.grid_conteiner .grid_item4 {
-  text-align: justify;
-  margin: 22px;
-  row-gap: 10px;
-}
-
-@media (max-width: 480px) {
-  h2 {
     font-size: 30px;
-    margin-top: 30px;
+    margin: 20px;
   }
+
   .grid_conteiner {
     display: block;
     margin: 20px;
   }
+
+
   .grid_conteiner .grid_item1 {
     text-align: justify;
     justify-content: center;
@@ -193,7 +154,7 @@ h2 {
     margin: 22px;
     gap: 15px;
   }
-}
+
 main div h2 {
   color: #C4847A;
   text-align: center;
@@ -214,10 +175,8 @@ main .conteiner-btn {
 
 h2 {
   color: #C4847A;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  margin-top: 50px;
+   font-size: 30px;
+  margin-top: 30px;
 }
 
 h3 {
@@ -270,27 +229,31 @@ h3 {
 
 @media (max-width: 480px) {
   h2 {
+    color: #C4847A;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    margin-top: 30px;
+    margin: 20px;
   }
+
+  h3 {
+   margin-top: 50px;
+  font-size: 30px;
+   }
   .fernanda {
     display: block;
-    gap: 50%;
-    font-size: 15px;
+    gap: 30%;
+    font-size: 18px;
   }
   .carolina {
     display: block;
-    gap: 50%;
+    gap: 30%;
     font-size: 18px;
   }
   .ariel {
     display: block;
-    gap: 50%;
+    gap: 30%;
     font-size: 18px;
-  }
-  h3 {
-    margin-top: 90px;
-    font-size: 33px;
   }
 }
 main {
@@ -300,7 +263,7 @@ main {
 main .oportunidades {
   color: #C4847A;
   text-align: center;
-  font-size: 36px;
+  font-size: 40px;
   margin-top: 30px;
 }
 main form {
@@ -371,8 +334,7 @@ main .icono-wpp img {
   .icono-wpp img {
     width: 40px;
   }
-}
-@media (max-width: 780px) {
+
   .oportunidades {
     font-size: 24px;
   }
@@ -399,11 +361,11 @@ main .icono-wpp img {
   margin-top: 10px;
   width: 100%;
 }
-@media (min-width: 768px) {
-  .pie .footer-estructura {
+
+.pie .footer-estructura {
     flex-direction: row;
-  }
 }
+
 .pie .footer-estructura .iconos {
   display: flex;
   margin: 10px;

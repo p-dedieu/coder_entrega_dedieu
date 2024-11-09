@@ -1,86 +1,82 @@
-
-
-   
-    h2{
-        color: #C4847A;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 40px; 
-        margin-top: 50px;  
-    }
-
-    .grid_conteiner{
-        display: flex;
-        margin: 50px;  
-
-        .grid_item1{
-            text-align: justify;
-            margin: 22px;            
-            
-        }
-          
-        .grid_item2{
-            text-align: justify;
-            margin: 22px;      
-        }
-          
-        .grid_item3{
-            text-align: justify;
-            margin: 22px;      
-        }
-          
-        .grid_item4{
-            text-align: justify;
-            margin: 22px;   
-            row-gap: 10px;
-        }   
-     
-    }     
-
-    @media(max-width: 600px) {
-
-        h2{
-            font-size: 30px; 
-            margin-top: 30px;     
-        }
-
-        .grid_conteiner{
-            display: block;
-            margin: 20px;  
-    
-            .grid_item1{
-                text-align: justify;
-                justify-content: center;
-                margin: 22px;  
-                gap: 15px;
-            }
-              
-            .grid_item2{
-                text-align: justify;
-                justify-content: center;
-                margin: 22px;  
-                gap: 15px;    
-            }
-              
-            .grid_item3{
-                text-align: justify;
-                justify-content: center;
-                margin: 22px;  
-                gap: 15px;     
-            }
-              
-            .grid_item4{
-                text-align: justify;
-                justify-content: center;
-                margin: 22px;  
-                gap: 15px; 
-            }   
-         
-        }     
-    }
-
-   
-
+body {
+    margin: 20px; // Márgenes de 20px en todos los bordes
+    padding: 0; // Asegúrate de que no haya relleno extra en el body
+    box-sizing: border-box; // Esto asegura que el padding y el margin no afecten el tamaño total del body
+  }
+  
+  h2 {
+      color: #C4847A;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px; 
+      margin-top: 50px;  
+  }
+  
+  .grid_conteiner {
+      display: flex;
+      margin: 50px;  // Esto agrega márgenes alrededor de la grilla de los elementos
+  
+      .grid_item1 {
+          text-align: justify;
+          margin: 22px;            
+      }
+  
+      .grid_item2 {
+          text-align: justify;
+          margin: 22px;      
+      }
+  
+      .grid_item3 {
+          text-align: justify;
+          margin: 22px;      
+      }
+  
+      .grid_item4 {
+          text-align: justify;
+          margin: 22px;   
+          row-gap: 10px;
+      }
+  }
+  
+  @media(max-width: 600px) {
+      h2 {
+          font-size: 30px; 
+          margin-top: 30px;     
+      }
+  
+      .grid_conteiner {
+          display: block;
+          margin: 20px;  // Márgenes más pequeños para pantallas más pequeñas
+  
+          .grid_item1 {
+              text-align: justify;
+              justify-content: center;
+              margin: 22px;  
+              gap: 15px;
+          }
+  
+          .grid_item2 {
+              text-align: justify;
+              justify-content: center;
+              margin: 22px;  
+              gap: 15px;    
+          }
+  
+          .grid_item3 {
+              text-align: justify;
+              justify-content: center;
+              margin: 22px;  
+              gap: 15px;     
+          }
+  
+          .grid_item4 {
+              text-align: justify;
+              justify-content: center;
+              margin: 22px;  
+              gap: 15px; 
+          }   
+      }     
+  }
 
   
     
