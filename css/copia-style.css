@@ -98,7 +98,7 @@ html{
   
   .grid_conteiner{
     display: flex;
-    margin: 15px;     
+    margin: 20px;     
   }
   
   .grid_item1{
@@ -314,22 +314,22 @@ html{
   
   .grid_item1{
     text-align: center;
-    margin: 0px;     
+    margin: 20px;     
   }
   
   .grid_item2{
     text-align: center;
-    margin: 0px;      
-  }
+    margin: 20px;      
+  
   
   .grid_item3{
     text-align:center;
-    margin: 0px;      
+    margin: 20px;      
   }
   
   .grid_item4{
     text-align: center;
-    margin: 0px;      
+    margin: 20px;      
   }
   
   .fernanda{
@@ -421,4 +421,4 @@ html{
     padding: 20px 0; /* Espaciado superior e inferior */
   }
 }
-  
+} 
