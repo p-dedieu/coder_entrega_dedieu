@@ -1,6 +1,5 @@
 html{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
   
   .encabezado{
     display: flex; 
@@ -8,11 +7,9 @@ html{
     background-color: white;  
     align-items: center;
   }
-  
-  .container-hamburguesa img{
-   
-    width: 25px; 
-    
+
+  .container-hamburguesa img{   
+    width: 25px;     
   }
   
   .quienes_somos:hover{
@@ -56,7 +53,7 @@ html{
   }
   
   .foto-de-fondo{
-   background-image: url(../assets/banner\ 3\ -\ mision.jpg); 
+   background-image: url(../assets/index.jpg); 
    background-repeat: no-repeat;
    background-size: cover;
    text-align: center;
@@ -77,7 +74,7 @@ html{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px; 
-    margin-top: 50px;     
+    margin-top: 40px;     
   }
   
   .oportunidades{
@@ -130,13 +127,13 @@ html{
     background-color: #F2F2F2;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     padding: 20px; 
     margin: 0%;
   }
   
   .cv-fernanda{
-    margin: 50px;
+    margin: 10px;
   }
   
   .carolina{
@@ -145,13 +142,13 @@ html{
     background-color: #EBE8E8;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     padding: 20px; 
     margin: 0%;
   }
   
   .cv-carolina{
-    margin: 50px;
+    margin: 10px;
   }
   
   .ariel{
@@ -160,20 +157,19 @@ html{
     background-color: #D9D5D5;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     padding: 20px; 
     margin: 0%;
   }
   
   .cv-ariel{
-    margin: 50px;
+    margin: 10px;
   }
   
   p{
     color: #B3B1B1;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    size: 3px;     
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;       
   }
   
   div{
@@ -191,8 +187,6 @@ html{
     margin-bottom: 80px;  
     margin-top: 80px;     
   }
-  
-  
   
   .icono-wpp{
     position: fixed;
@@ -205,8 +199,7 @@ html{
     color: #fff;
     text-align: center; 
     padding: 20px 0; 
-  }
-  
+  }  
   
   .pie{
     background-color: #C4847A;
@@ -215,23 +208,19 @@ html{
     padding: 20px 0; 
   }
 
-
-
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
   
   .encabezado{
     display: flex; 
-    width: 100%; 
+      width: 100%; 
     background-color: white;  
     align-items: center;
   }
   
-  .container-hamburguesa img{
-   
-    width: 25px; 
-    
+  .container-hamburguesa img{   
+    width: 25px;     
   }
   
   .quienes_somos:hover{
@@ -324,22 +313,22 @@ html{
   }
   
   .grid_item1{
-    text-align: left;
+    text-align: center;
     margin: 22px;     
   }
   
   .grid_item2{
-    text-align: left;
+    text-align: center;
     margin: 22px;      
   }
   
   .grid_item3{
-    text-align: left;
+    text-align:center;
     margin: 22px;      
   }
   
   .grid_item4{
-    text-align: left;
+    text-align: center;
     margin: 22px;      
   }
   
@@ -349,13 +338,13 @@ html{
     background-color: #F2F2F2;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     padding: 20px; 
     margin: 0%;
   }
   
   .cv-fernanda{
-    margin: 50px;
+    margin: 10px;
   }
   
   .carolina{
@@ -364,13 +353,13 @@ html{
     background-color: #EBE8E8;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     padding: 20px; 
     margin: 0%;
   }
   
   .cv-carolina{
-    margin: 50px;
+    margin: 10px;
   }
   
   .ariel{
@@ -379,20 +368,20 @@ html{
     background-color: #D9D5D5;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     padding: 20px; 
     margin: 0%;
   }
   
   .cv-ariel{
-    margin: 50px;
+    margin: 10px;
   }
   
   p{
     color: #B3B1B1;
-    text-align: left;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    size: 3px;     
+    size: 22px;     
   }
   
   div{
@@ -409,9 +398,7 @@ html{
     color: #ffffff;  
     margin-bottom: 80px;  
     margin-top: 80px;     
-  }
-  
-  
+  }  
   
   .icono-wpp{
     position: fixed;
@@ -419,7 +406,7 @@ html{
     bottom: 15px;
   }
   
-  .footer {
+  .footer{
     background-color: #333; 
     color: #fff; 
     text-align: center;

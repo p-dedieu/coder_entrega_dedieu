@@ -1,0 +1,16 @@
+
+{
+  "name": "coder_entrega_dedieu",
+  "version": "1.0.0",
+  "description": "Penultima entrega Coder",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --quiet scss/style.scss dist/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.80.6"
+  }
+}

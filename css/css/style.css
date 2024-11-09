@@ -70,7 +70,7 @@ header .encabezado nav ul li a {
 }
 
 /* Media query */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   header nav {
     display: none;
   }
@@ -108,7 +108,7 @@ main .parrafo-index2 {
 }
 
 /* Media query */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   header nav {
     display: none;
   }
@@ -160,7 +160,7 @@ h2 {
   row-gap: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   h2 {
     font-size: 30px;
     margin-top: 30px;
@@ -235,7 +235,7 @@ h3 {
   margin: 0%;
 }
 .fernanda .cv-fernanda {
-  margin: 50px;
+  margin: 30px;
 }
 
 .carolina {
@@ -249,7 +249,7 @@ h3 {
   margin: 0%;
 }
 .carolina .cv-carolina {
-  margin: 50px;
+  margin: 30px;
 }
 
 .ariel {
@@ -263,12 +263,12 @@ h3 {
   margin: 0%;
 }
 .ariel .cv-ariel {
-  margin: 50px;
+  margin: 30px;
 }
 
 /* Media query */
-/* Si bien puedo hacer con display block que pase de horizontal a vertical no logro que quede adaptado a varias pantallas mobile */
-@media (max-width: 600px) {
+
+@media (max-width: 480px) {
   h2 {
     font-size: 30px;
     margin-top: 30px;
@@ -437,4 +437,4 @@ main .icono-wpp img {
   transform: scale(0.95);
 }
 
-/*# sourceMappingURL=style.css.map */
+

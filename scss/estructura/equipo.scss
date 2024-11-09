@@ -3,25 +3,32 @@ h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px; 
-    margin-top: 50px;     
+    margin-top: 30px;     
 }
 
 h3{
-       margin-top: 50px;     
-}
+    margin-top: 30px;  
+    font-size: 30px;   
+} 
+
+p{
+    margin: 0px;
+} 
+
 
 .fernanda{
     display: flex;
     color: #959595;
+    justify-content: space-around;
     background-color: #F2F2F2;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    padding: 20px; 
+    font-size: 25px;
+    padding: 10px; 
     margin: 0%;
   
         .cv-fernanda{
-         margin: 50px;
+         margin: 10px;
         }
 }
 
@@ -31,12 +38,12 @@ h3{
     background-color: #EBE8E8;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     padding: 20px; 
     margin: 0%;
   
        .cv-carolina{
-         margin: 50px;
+         margin: 10px;
         }
 
 } 
@@ -46,48 +53,40 @@ h3{
     color: #959595;
     background-color: #D9D5D5;
     text-align: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     padding: 20px; 
     margin: 0%;
   
    .cv-ariel{
-     margin: 50px;
+     margin: 10px;
     }
 }
 
 /* Media query */
-
-/* Si bien puedo hacer con display block que pase de horizontal a vertical no logro que quede adaptado a varias pantallas mobile */
-
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     h2{
-        font-size: 30px; 
+        font-size: 30x; 
         margin-top: 30px;     
     }
 
     .fernanda {
         display: block;
-            gap: 50%;
-        font-size:15px;
+        gap: 10%;
+        font-size:35%;
     }
 
     .carolina {
         display: block;
-        gap: 50%;
-        font-size:18px;
+        gap: 10%;
+        font: size 35px
     }
 
     .ariel {
         display: block;
-        gap: 50%;
-        font-size:18px;
+        gap: 10%;
+        font-size:35px;
     }
 
-    h3{
-        margin-top: 90px;  
-        font-size: 33px;   
- }
 }
-
-
