@@ -80,7 +80,7 @@ main div h2 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  margin: 40px;
+  margin: 20px;
 }
 main div img {
   width: 100%;
@@ -122,20 +122,15 @@ main .parrafo-index2 {
     padding: 20px;
     max-width: 400px;
   }
-  h2 {
-    color: #C4847A;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    margin: 30px;
-  }
+
 }
+
 h2 {
   color: #C4847A;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .grid_conteiner {
@@ -144,19 +139,19 @@ h2 {
 }
 .grid_conteiner .grid_item1 {
   text-align: justify;
-  margin: 15px;
+  margin: 10px;
 }
 .grid_conteiner .grid_item2 {
   text-align: justify;
-  margin: 15px;
+  margin: 10px;
 }
 .grid_conteiner .grid_item3 {
   text-align: justify;
-  margin: 15px;
+  margin: 10px;
 }
 .grid_conteiner .grid_item4 {
   text-align: justify;
-  margin:15px;
+  margin:10px;
   row-gap: 10px;
 }
 
@@ -167,30 +162,30 @@ h2 {
   }
   .grid_conteiner {
     display: block;
-    margin: 0px;
+    margin: 10px;
   }
   .grid_conteiner .grid_item1 {
     text-align: justify;
     justify-content: center;
-    margin: 0px;
+    margin: 10px;
     gap: 15px;
   }
   .grid_conteiner .grid_item2 {
     text-align: justify;
     justify-content: center;
-    margin: 0px;
+    margin: 10px;
     gap: 15px;
   }
   .grid_conteiner .grid_item3 {
     text-align: justify;
     justify-content: center;
-    margin: 0px;
+    margin: 10px;
     gap: 15px;
   }
   .grid_conteiner .grid_item4 {
     text-align: justify;
     justify-content: center;
-    margin: 0px;
+    margin: 10px;
     gap: 15px;
   }
 }
@@ -217,7 +212,7 @@ h2 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 h3 {
@@ -249,7 +244,7 @@ h3 {
   margin: 0%;
 }
 .carolina .cv-carolina {
-  margin: 50px;
+  margin: 40px;
 }
 
 .ariel {
@@ -263,11 +258,11 @@ h3 {
   margin: 0%;
 }
 .ariel .cv-ariel {
-  margin: 50px;
+  margin: 30px;
 }
 
 /* Media query */
-/* Si bien puedo hacer con display block que pase de horizontal a vertical no logro que quede adaptado a varias pantallas mobile */
+
 @media (max-width: 600px) {
   h2 {
     font-size: 30px;
@@ -275,17 +270,17 @@ h3 {
   }
   .fernanda {
     display: block;
-    gap: 50%;
-    font-size: 15px;
+    gap: 30%;
+    font-size: 18px;
   }
   .carolina {
     display: block;
-    gap: 50%;
+    gap: 30%;
     font-size: 18px;
   }
   .ariel {
     display: block;
-    gap: 50%;
+    gap: 30%;
     font-size: 18px;
   }
   h3 {
@@ -294,7 +289,7 @@ h3 {
   }
 }
 main {
-  padding: 20px;
+  padding: 5x;
   background-color: #f9f9f9;
 }
 main .oportunidades {

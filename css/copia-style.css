@@ -68,7 +68,6 @@ html{
     font-size: 62px;    
   }
   
-  
   h2{
     color: #C4847A;
     text-align: center;
@@ -208,9 +207,9 @@ html{
     padding: 20px 0; 
   }
 
-html{
+  html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  }
   
   .encabezado{
     display: flex; 
@@ -270,15 +269,13 @@ html{
    text-align: center;
    padding: 100px;
    color: #FFFFFF;
-  }
-  
+  }  
   
   h1{  
     color: #fcfafa;
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 62px;    
-  }
-  
+  }  
   
   h2{
     color: #C4847A;
@@ -322,7 +319,7 @@ html{
     margin: 20px;      
   
   
-  .grid_item3{
+  .grid_item2{
     text-align:center;
     margin: 20px;      
   }
